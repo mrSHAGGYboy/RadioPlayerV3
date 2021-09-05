@@ -28,7 +28,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @SL_MEDIA_TECH_GRUOP 😉!"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -61,7 +61,7 @@ HELP_TEXT = """
 \u2022 `/restart` - update & restart the bot
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@SL_MEDIA_TECH_GRUOP | @NovaTechlk** 👑
 """
 
 
@@ -189,12 +189,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_media_tech"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SL_MEDIA_TECH_GRUOP"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("NOVA TECH", url="https://t.me/NovaTechlk"),
+                InlineKeyboardButton("DMG X", url="https://t.me/Dark_music_Gangex_2021"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
@@ -224,12 +224,12 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_media_tech"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SL_MEDIA_TECH_GRUOP"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("NOVA TECH", url="https://t.me/NovaTechlk"),
+                InlineKeyboardButton("DMG X", url="https://t.me/Dark_music_Gangex_2021"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -249,12 +249,12 @@ async def help(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_media_tech"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SL_MEDIA_TECH_GRUOP"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("NOVA TECH", url="https://t.me/NovaTechlk"),
+                InlineKeyboardButton("DMG X", url="https://t.me/Dark_music_Gangex_2021"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
